@@ -65,8 +65,8 @@ for (let i = 0; i < users.length; i++) {
     arrPhoneNum.push(individualUser.phone);
   }
   arrBalance.push(balance);
-  totalBalance = arrBalance.reduce((acc, item) => acc + item, 0);
 }
+totalBalance = arrBalance.reduce((acc, item) => acc + item, 0);
 console.log(
   `Номера пользователей с балансом более 2000 дол: \n ${arrPhoneNum}`
 );
